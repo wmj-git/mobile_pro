@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>icon_arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-opacity="0.3">
+        <g id="画板" transform="translate(-466.000000, -76.000000)" stroke="#000000">
+            <g id="H5/icon/icon_arrow" transform="translate(466.000000, 76.000000)">
+                <path d="M4,1 L8.29289322,5.29289322 C8.68341751,5.68341751 8.68341751,6.31658249 8.29289322,6.70710678 L4,11 L4,11" id="icon_arrow"></path>
+            </g>
+        </g>
+    </g>
+</svg>

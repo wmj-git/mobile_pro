@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>奇遇会员H5收银台</title>
+    <script src="js/mui.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/base.js"></script>
+    <script src="js/3.1.1/layer.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet" />
+    <link href="css/iconfont.css" rel="stylesheet" />
+    <link href="css/toast.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet" />
+    <link rel="icon" href="favicon.ico">
+    <script type="text/javascript" charset="utf-8">
+        mui.init();
+    </script>
+</head>
+
+<body class="index">
+<div class="mui-content">
+    <div class="center">
+        <div class="mui-row mui-card-header bg">
+            <header class="mui-bar mui-bar-nav headerFixed">
+                <div class="mui-col-xs-6">
+                    <embed src="images/nav_aiqiyivip.svg"></embed>
+                </div>
+                <div class="mui-col-xs-6 service">
+                    <embed src="images/nav_service.svg" class="iconService"></embed>
+                </div>
+            </header>
+        </div>
+        <div class="scrollHead">
+            <div class="user" id="pullrefresh">
+                <div class="mui-row userRow" id="userRow">
+                    <div class="headerImg mui-col-xs-2">
+                        <img id="userImg" class="img_bg" />
+                        <img id="userimgHead" class="img_header" />
+                    </div>
+                    <div class="userInfo mui-col-xs-10">
+                        <div class="userTitle">
+                            <p class="countInfo">
+                                <span class="loginInfo" id="userName"></span>
+                                <span id="userTel"></span>
+                            </p>
+                            <a href="#" class="changeCount" id="countBtn"></a>
+                        </div>
+                        <div class="userContext" id="countText"><span id="countTime"></span></div>
+                    </div>
+                </div>
+                <div class="mui-row members">
+                    <div class="mui-row membersTitle">奇遇VR会员套餐</div>
+                    <div class="membersType">
+                        <div class="mui-row membersContent" id="members">
+                            <div class="mui-col-xs-4 membersItem membersItem_active">
+                                <p class="listTitle"><span class="title title1">连续包年</span></p>
+                                <p class="newPrice"><span class="new newPrice1">222</span>元</p>
+                                <p class="oldPrice"><span class="old oldPrice1">399</span>元</p>
+                                <p class="lastPrice">折合<span class="save1">18.5</span>元/月</p>
+                            </div>
+                            <div class="mui-col-xs-4 membersItem">
+                                <p class="listTitle"><span class="title title2">连续包季</span></p>
+                                <p class="newPrice"><span class="new newPrice2">62</span>元</p>
+                                <p class="oldPrice"><span class="old oldPrice2">108</span>元</p>
+                                <p class="lastPrice">折合<span class="save2">20.5</span>元/月</p>
+                            </div>
+                            <div class="mui-col-xs-4 membersItem">
+                                <p class="listTitle"><span class="title title3">连续包月</span></p>
+                                <p class="newPrice"><span class="new newPrice3">22</span>元</p>
+                                <p class="oldPrice"><span class="old oldPrice3">48</span>元</p>
+                            </div>
+                        </div>
+                        <div class="mui-row mebersCheckBox">
+                            <div class="mui-input-row mui-checkbox mui-left mebersCheck">
+                                <label>到期后自动续费，可随时取消</label>
+                                <input name="checkbox1" value="Item 1" type="checkbox" checked>
+                            </div>
+                            <div class="membersTooltip">
+                                <p>开通立省<span id="save">177</span>元</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mui-row mui-col-xs-12 movies">
+                        <p class="moviesTitle">购买<span class="movieName"></span></p>
+                        <p class="moviesTime">观影有效期48小时</p>
+                        <ul id="movies">
+                            <li class="moviesItem moviesItem_active">
+                                <div class="mui-row moviesItemer">
+                                    <div class="mui-col-xs-6 moviesL moviesMembers">连续包月</div>
+                                    <div class="mui-col-xs-3 moviesCenter">影片购买</div>
+                                    <div class="mui-col-xs-3 moviesR moviesRight"><span class="new">24.5</span>元</div>
+                                </div>
+                                <div class="mui-row">
+                                    <div class="mui-col-xs-6 overfolwText moviesMembers">22元/月到期后自动续费</div>
+                                    <div class="mui-col-xs-3">会员半价2.5元</div>
+                                    <div class="moviesR mui-col-xs-3 moviesR throuth moviesCanacel"><span class="old">27</span>元</div>
+                                </div>
+                            </li>
+                            <li class="moviesItem">
+                                <div class="mui-row moviesItemer">
+                                    <div class=" mui-col-xs-6 moviesL moviesL1 moviesMembers">会员1个月</div>
+                                    <div class="mui-col-xs-3 moviesCenter">影片购买</div>
+                                    <div class="moviesR mui-col-xs-3 moviesRight"><span class="new">50.5</span>元</div>
+                                </div>
+                                <div class="mui-row">
+                                    <div class="mui-col-xs-6 moviesMembers">48元/月</div>
+                                    <div class="mui-col-xs-3">会员半价2.5元</div>
+                                    <div class="mui-col-xs-3 moviesR throuth moviesCanacel"><span class="old">53</span>元</div>
+                                </div>
+                            </li>
+                            <li class="moviesItem">
+                                <div class="mui-row moviesItemer">
+                                    <div class="mui-col-xs-6 moviesMembers oldPriceShop">原价购买影片</div>
+                                    <div class="mui-col-xs-6 moviesR flexLayout"><span class="new">5</span>元</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class=" mui-row moviesTicket">
+                        <p class="moviesTitle">购买<span class="movieName"></span></p>
+                        <p class="moviesTime">观影有效期48小时</p>
+                        <ul id="moviesTicket">
+                            <li class="moviesItem moviesItem_active">
+                                <div class="mui-row moviesItemer">
+                                    <div class="mui-col-xs-6 moviesTicketL">会员半价购买影片</div>
+                                    <div class="moviesR mui-col-xs-6">
+                                        <p class="ticketP"><span class="new">2.5</span>元</p>
+                                        <p class="ticketOp throuth"><span>5</span>元</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="mui-table-view mui-table-view-radio pay">
+                    <li class="mui-table-view-cell mui-selected">
+                        <a class="mui-navigate-right text"><span class="mui-icon iconfont icon-zfb"></span>支付宝支付</a>
+                    </li>
+                    <div class="line"></div>
+                    <li class="mui-table-view-cell">
+                        <a class="mui-navigate-right text"><span class="mui-icon iconfont icon-my_weixin"></span>微信支付</a>
+                    </li>
+                </ul>
+                <div class="mui-row package">
+                    <div class="mui-row specialBox">奇遇VR会员特权</div>
+                    <div class="mui-row specialList">
+                        <div class="mui-col-xs-4 packageItem">
+                            <p><embed src="images/icon/equity1.svg"></embed></p>
+                            <p>8K全景视频</p>
+                        </div>
+                        <div class="mui-col-xs-4 packageItem">
+                            <p><embed src="images/icon/equity2.svg"></embed></p>
+                            <p>独家3D电影</p>
+                        </div>
+                        <div class="mui-col-xs-4 packageItem">
+                            <p><embed src="images/icon/equity3.svg"></embed></p>
+                            <p>蓝光4K</p>
+                        </div>
+                        <div class="mui-col-xs-4 packageItem">
+                            <p><embed src="images/icon/equity4.svg"></embed></p>
+                            <p>杜比全景声</p>
+                        </div>
+                        <div class="mui-col-xs-4 packageItem">
+                            <p><embed src="images/icon/equity5.svg"></embed></p>
+                            <p>IQUT巨幕</p>
+                        </div>
+                        <div class="mui-col-xs-4 packageItem">
+                            <p><embed src="images/icon/equity6.svg"></embed></p>
+                            <p>院线新片</p>
+                        </div>
+                        <div class="mui-col-xs-4 packageItem">
+                            <p><embed src="images/icon/equity7.svg"></embed></p>
+                            <p>热剧抢先看</p>
+                        </div>
+                        <div class="mui-col-xs-4 packageItem">
+                            <p><embed src="images/icon/equity8.svg"></embed></p>
+                            <p>下载加速</p>
+                        </div>
+                        <div class="mui-col-xs-4 packageItem">
+                            <p><embed src="images/icon/equity9.svg"></embed></p>
+                            <p>VR互动视频</p>
+                        </div>
+                        <div class="mui-col-xs-4 packageItem">
+                            <p><embed src="images/icon/equity10.svg"></embed></p>
+                            <p>VR全景声</p>
+                        </div>
+                        <div class="mui-col-xs-4 packageItem">
+                            <p><embed src="images/icon/equity11.svg"></embed></p>
+                            <p>HDR画质</p>
+                        </div>
+                        <div class="mui-col-xs-4 packageItem">
+                            <p><embed src="images/icon/equity12.svg"></embed></p>
+                            <p>60FPS高帧率</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mui-row special" id="special">
+                    <div class="mui-table-view specialTitle">
+                        <a class="mui-navigate-right">服务协议<!--<span class="specialXy">服务协议</span>--></a>
+                    </div>
+                    <p class="specialContent">
+                        奇遇会员仅支持奇遇VR一体机自身内容权益，不支持第三方应用权益；开通赠送爱奇艺黄金VIP（适用于手机、平板、电脑），限时赠送大众体育会员。
+                    </p>
+                </div>
+                <div class="mui-row activeCode" id="activeOpen">
+                    <div class="mui-table-view activeCodetext">
+                        <a class="mui-navigate-right">激活码兑换</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="mui-row">
+        <nav class="mui-bar mui-bar-tab footerContent">
+            <div class="mui-row">
+                <div class="mui-col-xs-8 footerL">
+                    <p>
+                        <span>总计<span class="num"><b id="presentPrice"></b>元</span></span>
+                        <span class="preferential">已优惠<span id="referentialPrice">177</span>元</span>
+                    </p>
+                    <div class="mui-input-row mui-checkbox mui-left footerCheck">
+                        <label>已查看并同意</label>
+                        <input name="checkbox1" value="Item 1" type="checkbox" checked id="check">
+                        <a><span class="xy">《服务协议》</span></a>
+                    </div>
+                </div>
+                <div class="mui-col-xs-4 footerR">
+                    <button type="button" class="mui-btn mui-btn-outlined payBtn" id="payBtn">确认支付</button>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+</body>
+<script src="js/index.js"></script>
+<script>
+    mui("#members").on("tap", ".membersItem", membersFn);
+    /*mui(".footerCheck").on("change", "input", payFn);*/
+    mui(".mebersCheck").on("change", "input", membersCheckFn);
+    /*	mui("#activeOpen").on("tap", ".activeCodetext", activeOpenFn);*/
+    mui("#movies").on("tap", "li", membersFn);
+    /*mui(".footerR").on("tap", "#payBtn", payFn);*/
+    mui("#special").on("tap", ".specialTitle", agreementFn)
+    mui("a").on("tap", ".xy", agreementFn)
+</script>
+
+</html>

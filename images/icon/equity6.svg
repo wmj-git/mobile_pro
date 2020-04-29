@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>H5/img/equity6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-3.25276238%" y1="23.816331%" x2="107.183674%" y2="107.591705%" id="linearGradient-1">
+            <stop stop-color="#FFCE8C" offset="0%"></stop>
+            <stop stop-color="#B85A0E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-691.000000, -194.000000)">
+            <g id="H5/img/equity6" transform="translate(691.000000, 194.000000)">
+                <g id="编组-14" transform="translate(2.400000, 2.400000)">
+                    <circle id="内容" fill="url(#linearGradient-1)" fill-rule="nonzero" cx="13.6" cy="13.6" r="13.6"></circle>
+                    <path d="M14,16.8 C12.8954305,16.8 12,17.6954305 12,18.8 C12,19.9045695 12.8954305,20.8 14,20.8 C15.1045695,20.8 16,19.9045695 16,18.8 C16,17.6954305 15.1045695,16.8 14,16.8 Z" id="路径" fill="#FFFFFF" fill-rule="nonzero" opacity="0.8"></path>
+                    <path d="M18.8,12 C17.6954305,12 16.8,12.8954305 16.8,14 C16.8,15.1045695 17.6954305,16 18.8,16 C19.9045695,16 20.8,15.1045695 20.8,14 C20.8,12.8954305 19.9045695,12 18.8,12 Z" id="路径" fill="#FFFFFF" fill-rule="nonzero" opacity="0.8"></path>
+                    <path d="M8.4,12 C7.2954305,12 6.4,12.8954305 6.4,14 C6.4,15.1045695 7.2954305,16 8.4,16 C9.5045695,16 10.4,15.1045695 10.4,14 C10.4,12.8954305 9.5045695,12 8.4,12 Z" id="路径" fill="#FFFFFF" fill-rule="nonzero" opacity="0.8"></path>
+                    <path d="M14,6.4 C12.8954305,6.4 12,7.2954305 12,8.4 C12,9.5045695 12.8954305,10.4 14,10.4 C15.1045695,10.4 16,9.5045695 16,8.4 C16,7.2954305 15.1045695,6.4 14,6.4 Z" id="路径" fill="#FFFFFF" fill-rule="nonzero" opacity="0.8"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

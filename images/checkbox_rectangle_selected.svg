@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>checkbox_rectangle_selected</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="133.861306%" y2="131.904324%" id="linearGradient-1">
+            <stop stop-color="#F7D891" offset="0%"></stop>
+            <stop stop-color="#C05C18" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-176.000000, -294.000000)">
+            <g id="H5/checkbox/rectangle_selected" transform="translate(176.000000, 294.000000)">
+                <g id="checkbox_s_selected">
+                    <rect id="矩形" fill="url(#linearGradient-1)" fill-rule="nonzero" x="0" y="0" width="12" height="12" rx="2"></rect>
+                    <path d="M3,6 L4.64644661,7.64644661 C4.84170876,7.84170876 5.15829124,7.84170876 5.35355339,7.64644661 L9,4 L9,4" id="路径-54" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

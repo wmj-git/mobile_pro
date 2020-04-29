@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="49px" viewBox="0 0 96 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>img_bgvr</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="96" height="52"></rect>
+        <filter x="-26.3%" y="-48.1%" width="152.6%" height="196.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="9" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#F5D48D" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#D58C47" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-75.000000, -216.000000)">
+            <g id="H5/img/VR" transform="translate(75.000000, 213.000000)">
+                <g id="VR">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="蒙版"></g>
+                    <g filter="url(#filter-3)" opacity="0.661900112" mask="url(#mask-2)" fill="url(#linearGradient-4)" fill-rule="nonzero" id="形状">
+                        <g transform="translate(54.240000, 39.500000) rotate(-376.000000) translate(-54.240000, -39.500000) translate(5.760000, 13.000000)" opacity="0.553896949">
+                            <path d="M12.3711715,0.187834044 L25.1328548,33.9726071 C25.516817,34.9968588 26.8505771,35.0124581 27.2547493,33.9830056 L40.4559734,0.187834044 L52.1769299,0.187834044 L33.1101947,47.1631489 C31.6230683,51.1800721 27.2533183,53.1957671 23.3500499,51.6653333 C21.2960848,50.8599906 19.6841671,49.1749139 18.9339132,47.0487641 L0.72600473,0.187834044 L12.3711715,0.187834044 Z M85.1672796,30.8374495 L85.1672796,30.8530473 L88.3299158,30.8530473 C92.4928724,30.8530473 95.8676852,27.1823725 95.8575701,22.6538341 L95.8272573,8.19989498 C95.817153,3.76492742 92.5029561,0.177444115 88.4258698,0.177444115 L53.7480348,0.177444115 L53.7480348,11.4910462 L81.469056,11.4910462 C83.5050655,11.4910462 85.1571132,13.2847904 85.1571132,15.4996717 C85.1571132,17.7145582 83.5050655,19.5082973 81.469056,19.5082973 L53.7480348,19.5082973 L53.7480348,51.1821685 L64.3979189,51.1821685 L64.3979189,30.8374886 L71.046541,30.8374886 L83.9799847,51.1821685 L96.7164047,51.1821685 L83.8182901,30.8374886 L85.1672796,30.8374495 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

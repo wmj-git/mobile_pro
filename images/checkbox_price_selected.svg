@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>checkbox_price_selected</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="13.2762609%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F4D28B" offset="0%"></stop>
+            <stop stop-color="#D28540" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-137.000000, -294.000000)">
+            <g id="H5/checkbox/price_selected" transform="translate(137.000000, 294.000000)">
+                <g id="checkbox_price_selected" stroke-width="1" fill-rule="evenodd" fill="url(#linearGradient-1)">
+                    <path d="M4,0 L12,0 L12,0 L12,8 C12,10.209139 10.209139,12 8,12 L0,12 L0,12 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="矩形" fill-rule="nonzero"></path>
+                </g>
+                <path d="M3,6 L4.64644661,7.64644661 C4.84170876,7.84170876 5.15829124,7.84170876 5.35355339,7.64644661 L9,4 L9,4" id="路径-54" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

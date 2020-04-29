@@ -1,0 +1,11 @@
+{
+	"code":"200",
+	"message":"登录状态",
+	"userData":{
+		"userName":"安德鲁安德鲁安德鲁",
+		"userTel":"18933939939",
+		"userImg":"images/userImg.jpg",
+		"begin":"2010.08.02",
+		"end":"2010.09.10"
+	}
+}

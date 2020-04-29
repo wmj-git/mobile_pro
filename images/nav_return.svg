@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>nav_return</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-118.956626%" y1="64.2062922%" x2="196.361451%" y2="64.2062922%" id="linearGradient-1">
+            <stop stop-color="#F7D891" offset="0%"></stop>
+            <stop stop-color="#C05C18" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="画板" transform="translate(-251.000000, -71.000000)" stroke="url(#linearGradient-1)" stroke-width="1.2">
+            <g id="H5/icon/nav_return" transform="translate(251.000000, 71.000000)">
+                <path d="M8,6 L8,15.5 C8,15.7761424 8.22385763,16 8.5,16 L18,16 L18,16" id="路径-13" transform="translate(13.000000, 11.000000) rotate(-315.000000) translate(-13.000000, -11.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

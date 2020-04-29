@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>acount_avatar_default</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="-6.88248384%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#EEEEEE" offset="0%"></stop>
+            <stop stop-color="#D8D8D8" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="21" cy="21" r="21"></circle>
+        <linearGradient x1="0%" y1="42.4783492%" x2="100%" y2="56.6115702%" id="linearGradient-4">
+            <stop stop-color="#EEEEEE" offset="0%"></stop>
+            <stop stop-color="#D8D8D8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-962.000000, -107.000000)">
+            <g id="H5/img/账户信息/avatar_default" transform="translate(962.000000, 107.000000)">
+                <g id="编组">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="椭圆形" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    <path d="M21,6 C26.5228475,6 31,10.4771525 31,16 C31,20.4297763 28.1196891,24.1868199 24.129726,25.5004722 C28.1196891,26.8131801 31,30.5702237 31,35 L31,35 L11,35 C11,30.5702237 13.8803109,26.8131801 17.870274,25.4995278 C13.8803109,24.1868199 11,20.4297763 11,16 C11,10.4771525 15.4771525,6 21,6 Z" id="形状结合" fill="#FFFFFF" opacity="0.8" mask="url(#mask-3)"></path>
+                    <path d="M11.5,12 L30.5,12 C31.3284271,12 32,12.6715729 32,13.5 L32,18.5 C32,19.3284271 31.3284271,20 30.5,20 L24.2230987,20 C23.9045582,20 23.5942881,19.898594 23.337232,19.7104711 L21.9111669,18.666825 C21.3716105,18.271958 20.6358535,18.2818738 20.1071343,18.6911379 L18.8216899,19.6861582 C18.5588581,19.8896076 18.2358975,20 17.9035239,20 L11.5,20 C10.6715729,20 10,19.3284271 10,18.5 L10,13.5 C10,12.6715729 10.6715729,12 11.5,12 Z" id="矩形" stroke="#CDCDCD" stroke-width="0.5" fill="url(#linearGradient-4)" mask="url(#mask-3)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>H5/img/equity10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-3.25276238%" y1="23.816331%" x2="107.183674%" y2="107.591705%" id="linearGradient-1">
+            <stop stop-color="#FFCE8C" offset="0%"></stop>
+            <stop stop-color="#B85A0E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-457.000000, -370.000000)">
+            <g id="H5/img/equity10" transform="translate(457.000000, 370.000000)">
+                <g id="编组-20" stroke-width="1" fill-rule="evenodd" transform="translate(2.400000, 2.400000)">
+                    <circle id="形状结合" fill="url(#linearGradient-1)" fill-rule="nonzero" cx="13.6" cy="13.6" r="13.6"></circle>
+                    <path d="M7.616,18.304 L10.2,11.36 L8.528,11.36 L6.992,16.176 C6.90666667,16.4373333 6.83466667,16.6746667 6.776,16.888 L6.776,16.888 L6.76,16.888 C6.70666667,16.7066667 6.632,16.4746667 6.536,16.192 L6.536,16.192 L4.912,11.36 L3.224,11.36 L5.848,18.304 L7.616,18.304 Z M12.288,18.304 L12.288,15.576 L13.176,15.576 L14.864,18.296 L16.848,18.296 L14.8,15.488 C15.952,15.264 16.52,14.5706667 16.504,13.408 C16.4293333,12.0906667 15.552,11.408 13.872,11.36 L13.872,11.36 L10.72,11.36 L10.72,18.304 L12.288,18.304 Z M13.616,14.4 L12.288,14.4 L12.288,12.568 L13.616,12.568 C14.4586667,12.552 14.8693333,12.8613333 14.848,13.496 C14.864,14.1093333 14.4533333,14.4106667 13.616,14.4 L13.616,14.4 Z" id="VR" fill="#FFFFFF" fill-rule="nonzero" opacity="0.8"></path>
+                </g>
+                <path d="M16.8,10.4 C19.8283614,10.4 22.2952789,12.8038267 22.3967528,15.8074802 L22.4,16 L20.8,16 C20.8,13.8489962 19.1021546,12.0945455 16.9735117,12.0036956 L16.8,12 L16.8,10.4 Z" id="路径" fill="#FFFFFF" fill-rule="nonzero" opacity="0.8"></path>
+                <path d="M16.8,7.2 C21.5829613,7.2 25.4746921,11.0158109 25.5970341,15.769274 L25.6,16 L24,16 C24,12.0945578 20.8905491,8.91536686 17.0122898,8.80306968 L16.8,8.8 L16.8,7.2 Z" id="路径备份" fill="#FFFFFF" fill-rule="nonzero" opacity="0.8"></path>
+            </g>
+        </g>
+    </g>
+</svg>

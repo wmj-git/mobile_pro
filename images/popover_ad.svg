@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="25px" viewBox="0 0 84 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>popover_ad</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="45.7637672%" x2="133.861306%" y2="56.9393157%" id="linearGradient-1">
+            <stop stop-color="#F7D891" offset="0%"></stop>
+            <stop stop-color="#C05C18" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-80.000000, -335.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="编组-13" transform="translate(80.000000, 335.000000)">
+                <path d="M11.4049587,0.0621632309 C11.5915691,-0.0560717831 11.8386951,-0.000642599957 11.9569302,0.185967777 L11.9569302,0.185967777 L14.659,4.45 L74,4.45030009 C79.5228475,4.45030009 84,8.92745259 84,14.4503001 C84,19.9731476 79.5228475,24.4503001 74,24.4503001 L10,24.4503001 C4.57076009,24.4503001 0.152068282,20.1236293 0.00384179753,14.7302049 L0,14.4503001 L0,14.4503001 C-6.43873486e-16,9.19267408 4.05746858,4.88272064 9.21195021,4.48089529 L11.2585495,0.226716212 C11.2909917,0.159244722 11.3417181,0.102232082 11.4049587,0.0621632309 Z" id="形状结合"></path>
+            </g>
+        </g>
+    </g>
+</svg>

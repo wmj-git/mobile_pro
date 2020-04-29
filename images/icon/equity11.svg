@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>H5/img/equity11</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-3.25276238%" y1="23.816331%" x2="107.183674%" y2="107.591705%" id="linearGradient-1">
+            <stop stop-color="#FFCE8C" offset="0%"></stop>
+            <stop stop-color="#B85A0E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-574.000000, -370.000000)">
+            <g id="H5/img/equity11" transform="translate(574.000000, 370.000000)">
+                <g id="编组-17" stroke-width="1" fill-rule="evenodd" transform="translate(2.400000, 2.400000)" fill="url(#linearGradient-1)">
+                    <circle id="形状结合" fill-rule="nonzero" cx="13.6" cy="13.6" r="13.6"></circle>
+                </g>
+                <path d="M7.688,19.104 L7.688,16.28 L10.696,16.28 L10.696,19.104 L12.256,19.104 L12.256,12.16 L10.696,12.16 L10.696,14.936 L7.688,14.936 L7.688,12.16 L6.136,12.16 L6.136,19.104 L7.688,19.104 Z M15.536,19.104 C18.0746667,19.1786667 19.304,17.992 19.224,15.544 C19.1866667,13.3146667 17.9226667,12.1866667 15.432,12.16 L15.432,12.16 L13.288,12.16 L13.288,19.104 L15.536,19.104 Z M15.408,17.8320281 L14.864,17.8320281 L14.864,13.44 L15.4,13.44 C16.8133333,13.4666667 17.5386667,14.176 17.576,15.568 C17.5813333,17.0826667 16.8586667,17.8373333 15.408,17.8320281 L15.408,17.8320281 Z M21.592,19.104 L21.592,16.376 L22.48,16.376 L24.168,19.096 L26.152,19.096 L24.104,16.288 C25.256,16.064 25.824,15.3706667 25.808,14.208 C25.7333333,12.8906667 24.856,12.208 23.176,12.16 L23.176,12.16 L20.024,12.16 L20.024,19.104 L21.592,19.104 Z M22.92,15.2 L21.592,15.2 L21.592,13.368 L22.92,13.368 C23.7626667,13.352 24.1733333,13.6613333 24.152,14.296 C24.168,14.9093333 23.7573333,15.2106667 22.92,15.2 L22.92,15.2 Z" id="HDR" fill="#FFFFFF" fill-rule="nonzero" opacity="0.8"></path>
+            </g>
+        </g>
+    </g>
+</svg>

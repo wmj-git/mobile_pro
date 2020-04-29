@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>奇遇会员H5收银台</title>
+		<script src="js/mui.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/base.js"></script>
+		<script src="js/3.1.1/layer.js"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/iconfont.css" rel="stylesheet" />
+		<link href="css/base.css" rel="stylesheet" />
+		<link href="css/toast.css" rel="stylesheet">
+		<link rel="icon" href="favicon.ico">
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+		</script>
+	</head>
+
+	<body class="active">
+		<div class="mui-content">
+			<div class="center">
+				<div class="mui-row mui-card-header bg">
+					<header class="mui-bar mui-bar-nav headerFixed">
+						<div class="mui-col-xs-4 back" id="return">
+							<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+						</div>
+						<div class="mui-col-xs-4 title">
+							<embed src="images/nav_code.svg"></embed>
+						</div>
+						<div class="mui-col-xs-4 service">
+							<embed src="images/nav_service.svg" class="iconService"></embed>
+						</div>
+					</header>
+				</div>
+				<div class="user">
+					<div class="mui-row userRow" id="userRow">
+						<div class="headerImg mui-col-xs-2">
+							<img id="userImg" class="img_bg">
+							<img id="userimgHead" class="img_header">
+						</div>
+						<div class="userInfo mui-col-xs-10">
+							<div class="userTitle">
+								<p class="countInfo">
+									<span class="loginInfo" id="userName"></span>
+									<span id="userTel"></span>
+								</p>
+								<a href="#" class="changeCount" id="countBtn"></a>
+							</div>
+							<div class="userContext" id="countText"><span id="countTime"></span></div>
+						</div>
+					</div>
+					<div class="mui-col-xs-12 activeInput" id="inputs">
+						<div class="mui-input-row">
+							<!--<input type="text" id="inputCode" oninput="value=value.replace(/[^\d|-]/g,'')" onfocus="this.placeholder=''" onblur="this.placeholder='请输入激活码'" placeholder="请输入激活码" onkeyup="" onkeydown="return (function(key,that){return (key>47&&key<58) && (((that.value.length+1)%5==0)?that.value+='-':0)})(event.keyCode,this)">-->
+							<input type="tel"  id="inputCode" oninput="value=value.replace(/[^\d|-]/g,'')" onfocus="this.placeholder=''" onblur="inputBlur()" placeholder="请输入激活码"  onkeyup="inputCodeUp(event)">
+						</div>
+					</div>
+					<div class="mui-col-xs-12 activeIntroduce">
+						<p class="activeTitle">激活说明</p>
+						<p class="activeText">奇遇会员仅支持奇遇VR一体机自身内容权益，不支持第三方应用权益；开通赠送爱奇艺黄金vip（适用于手机、平板、电脑），限时赠送大众体育会员。</p>
+						<p class="activeText text">其他说明事项，其他说明事项，其他说明事项</p>
+					</div>
+					<div class="mui-row">
+						<nav class="mui-bar mui-bar-tab footerContent">
+							<div class="mui-col-xs-12 footerActive">
+								<button type="button" class="activeBtn" id="activeBtn" disabled="true">立即激活</button>
+								<div id="codeInfo"></div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/index.js"></script>
+	<script>
+		mui(".headerFixed").on("tap", "#return", function() {
+			console.log("return")
+		})
+		/*mui(".footerActive").on("touchend", "#activeBtn", activeFn)*/
+		
+				
+		function inputBlur() {
+			window.scrollTo(0, 0);
+		}
+	</script>
+
+</html>

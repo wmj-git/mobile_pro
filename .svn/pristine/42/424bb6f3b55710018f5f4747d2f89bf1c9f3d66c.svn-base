@@ -1,0 +1,24 @@
+.mui-toast-container {
+	bottom: 50% !important;
+	width: auto;
+	white-space: nowrap;
+	background-color: rgba(0,0,0,.7);
+	border-radius: 10px;
+}
+
+.mui-toast-message {
+	padding: 20px;
+	border-radius: 10px;
+	font-size: 16px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 20px;
+}
+
+.mui-toast-message p {
+	font-size: 12px;
+	margin-top: 12px;
+	color: #FFFFFF;
+	margin-bottom: 0;
+	text-align: justify;
+}
